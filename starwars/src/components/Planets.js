@@ -27,13 +27,10 @@ text-shadow: 2px 2px #B8805C;
 function Planets(props) {
     return (
         <Div>
-           
-                <H1>Name: {props.name}</H1>
-                <H2>Rotation Period: {props.rotation_period}</H2>
-               <H3> Diameter: {props.diameter}</H3>
-                
-     </Div>
-
+            <H1>Name: {props.name}</H1>
+            <H2>Rotation Period: {props.rotation_period}</H2>
+            <H3> Diameter: {props.diameter}</H3>
+        </Div>
     );
 }
 
